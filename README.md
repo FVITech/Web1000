@@ -17,8 +17,8 @@
 4. More angularJS exercises (codecademy)
 5. Review of big oh, recursion, binary search, bubblesort, mergesort.
 6. Exam 1
-7. Arrays in low level languages (contiguous memory of immutable size), arrays in JS, linked lists (interface and implementation). Define interfaces for stacks and queues. Go over bubblesort, mergesort, Euclid's GCD, and quiz1.
-8. Cover BST, Stacks, queues, and do the [space station project](space-station.md).
+7. Arrays in low level languages (contiguous memory of immutable size), arrays in JS, linked lists (interface and implementation). Define interfaces for stacks and queues. Go over Euclid's GCD, stacks, and queues. Exercises of bubblesort and mergesort with examples.
+8. Cover BST, and do the [space station project](space-station.md).
 9. Khan academy graph representation, breadth first search, [Depth First Search]http://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm, https://www.youtube.com/watch?v=tlPuVe5Otio and Graph Theory Game.
 10. Sudoku Project
 11. Sudoku Project (continued)

@@ -22,12 +22,19 @@ Instructions: create a new repository called ng-ds-test. Within this repo, creat
 
   Now add 0 to the tree. Which one is the first node to go out of balance?
 
-
 7. How do you fix this node? (Use the following rotation as an example: rightRotation(30), or leftRotation(10))
 
 8. What are the four main steps of mergesort?
 
-9. What are the four main steps of quicksort?
+9. Say you have a program which handles the login queue to a game server. The game server is able to log in one person every one second. Assume that one second must elapse after a person logs in with an empty queue before they are removed from the queue. Draw the state of the queue at 12:00:06, considering the following sequence of events:
+    1. At 12:00:00 Hades logs in
+    2. At 12:00:00 Ares logs in
+    3. At 12:00:00 Zeus logs in
+    4. At 12:00:00 Buzz Light Year logs in
+    5. At 12:00:02 Kanye West logs in
+    6. At 12:00:03 Taylor Swift logs in
+    7. At 12:00:03 Darkwing Duck logs in
+    8. At 12:00:04 Evil Mickey logs in.
 
 10. What is an angular directive?
 
@@ -51,4 +58,5 @@ Instructions: create a new repository called ng-ds-test. Within this repo, creat
   c. angularApp.directive  
   d. angularApp.factory  
 
-15. Go to my [angular projects github repo](https://github.com/Swolebrain/ng-starter-projects) and do one of them. Don't clone the repository, but rather add all the files to the folder which corresponds to your github repo. Add the files right at the root of your repo, not within a subfolder. Make sure you upload it to fvi-grad.com and also to a github repository.
+15. Do this exercise: https://github.com/Real-Skill/angular-exercises/tree/exercise1
+You will need to run git checkout exercise1 in addition to the commands listed in that readme. You do not need to run grunt karma.

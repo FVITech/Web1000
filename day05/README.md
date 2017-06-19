@@ -5,7 +5,7 @@ A hashed Data structure is characterized by having O(1) access time for finding 
 
 https://www.codewars.com/kata/difference-between-two-collections/train/javascript
 
-Given the following Objects, create a page that displays a table with order listings as in the image:
+Given the following Objects, create a page that displays a table with order listings as in the image. Do it by creating a single data structure where you can index by customer in constant time.
 
 ![table layout](day05.png)
 

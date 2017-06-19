@@ -1,5 +1,36 @@
 # Day 5 notes
 
+# Hashed Data structures
+A hashed Data structure is characterized by having O(1) access time for finding an element. It's very useful in exercises like this one:
+
+https://www.codewars.com/kata/difference-between-two-collections/train/javascript
+
+Given the following Objects, create a page that displays a table with order listings as in the image:
+
+![table layout](day05.png)
+
+```javascript
+  var customers = [
+    {first_name: "John", last_name: "Doe", email: "thugnificent@fvi.edu", id: 12345},
+    {first_name: "Jane", last_name: "McGall", email: "jane@fvi.edu", id: 12346},
+    {first_name: "Adam", last_name: "Smith", email: "asmith@fvi.edu", id: 12347}
+  ];
+
+  var orders = [
+    {order_id: 123, customer_id:12345, items: [1,2] },
+    {order_id: 124, customer_id:12345, items: [2,3] },
+    {order_id: 125, customer_id:12346, items: [1] },
+    {order_id: 126, customer_id:12346, items: [2] },
+    {order_id: 127, customer_id:12347, items: [1,2,3]},
+  ];
+
+  var inventory = [
+    {item_id: 1, name: "Alligator Mask", price: 55 },
+    {item_id: 2, name: "Japanese Weird Video Game", price: 77 },
+    {item_id: 3, name: "Dragon Ball Z full body tattoo", price: 99 },
+  ]
+```
+
 # Searching an Array
 
 ```javascript
@@ -52,77 +83,6 @@ function bubbleSort(arr){
    }
    return arr;
 }
-
-## Recursion
-
-Recursion is when a function call hisself. Anything that can be implemented with a loop can be implemented with recursion and vice versa
-
-Ex: Factorial
-
-```javascript
-  function loopFactorial(num){
-     var prod = 1;
-     for (var i = 1; i <= num; i++) prod *= i;
-     return prod;
-  }
-
-  function recFactorial(num){
-     if (num <=1) return 1;
-     return num * recFactorial(num-1);
-  }
-```
-
-Ex2: Multiply All the Elements in an array
-
-```javascript
-  function recArraySum(arr){
-      if (arr.length === 1) return arr[0];
-      return arr[0] + recArraySum(arr.slice(1));
-  }
-  // [1,2,3,4]
-  //  1 * ras([2,3,4])
-  //        2* ras([3,4])
-  //             3 * ras([4])
-  //                   4
-```
-
-Ex3: Fibonacci
-
-What is the fibonacci sequence? It works like this:
-
-f(0) = 1  
-f(1) = 1  
-f(2) = 2  
-f(3) = 3  
-f(4) = 5  
-f(5) = 8  
-f(6) = 13  
-...  
-f(n) = f(n-1) + f(n-2)  
-
-```javascript
-  function loopFib(n){
-    if (n <= 1) return 1;
-    var prev2 = 1;
-    var prev = 1;
-    var curr= 2;
-    for (var i = 2; i < n; i++){
-  	prev2 = prev;
-          prev = curr;
-  	curr = prev+prev2;
-    }
-    return curr;
-  }
-  console.log(loopFib(5))
-```
-
-```javascript
-  function recFib(n){
-     if (n <= 1) return 1;
-     return recFib(n-1) + recFib(n-2);
-  }
-  console.log(recFib(10))
-```
 
 ## Merge Sort
 

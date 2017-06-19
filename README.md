@@ -12,9 +12,9 @@
 
 # Summary
 1. Big oh notation, boolean algebra, demorgan's laws. Explain everything needed for the worksheet and then have the students complete the [day 1 worksheet](day1.js)
-2. Need new project
-3. Intro to angularjs: puppy clicker, quote of the day, and quote of the day with custom directive.
-4. More angularJS exercises (codecademy)
+2. Codility iterations and time complexity.
+3. Stacks and Queues from the FEM-algos course, including implementations
+4. Recursion from FEM-algos and day04 exercises
 5. Review of big oh, recursion, binary search, bubblesort, mergesort.
 6. Exam 1
 7. Arrays in low level languages (contiguous memory of immutable size), arrays in JS, linked lists (interface and implementation). Define interfaces for stacks and queues. Go over Euclid's GCD, stacks, and queues. Exercises of bubblesort and mergesort with examples.

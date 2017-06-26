@@ -15,14 +15,14 @@
 2. Codility iterations and time complexity.
 3. Stacks and Queues from the FEM-algos course, including implementations
 4. Recursion from FEM-algos and day04 exercises
-5. Review of big oh, recursion, binary search, bubblesort, mergesort.
-6. Exam 1
-7. Arrays in low level languages (contiguous memory of immutable size), arrays in JS, linked lists (interface and implementation). Define interfaces for stacks and queues. Go over Euclid's GCD, stacks, and queues. Exercises of bubblesort and mergesort with examples.
-8. Cover BST, and do the [space station project](space-station.md).
-9. Khan academy graph representation, breadth first search, [Depth First Search]http://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm, https://www.youtube.com/watch?v=tlPuVe5Otio and Graph Theory Game.
-10. Sudoku Project
-11. Sudoku Project (continued)
-12. Final exam on angular and data structures
+5. [Real world example](day05/README.md) of the importance of understanding algo problems
+6. Review of big oh, recursion, binary search, bubblesort, mergesort, quicksort.
+7. Linked Lists, Start the tic-tac-toe game
+8. Exam 1
+9. Results from exam, Cover graphs, and do the [space station project](space-station.md), build one of the graph theory games (detailed below under day 9), or start the [sudoku project](sudoku.md).
+10. Project work
+11. Project work
+12. Final exam on data structures
 
 # Day 1
 
@@ -40,4 +40,7 @@ Go over bubblesort, mergesort, Euclid's GCD, and quiz1.
 Cover BST, Stacks, queues, and do the [space station project](space-station.md).
 
 # Day 9
+
+Khan academy graph representation, breadth first search, [Depth First Search]http://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm, https://www.youtube.com/watch?v=tlPuVe5Otio and Graph Theory Game.
+
 Cover basics of graph theory and do a project, for instance the [connect 4 game](http://www.swolebrain.com/connect4), the [sim game](http://www.swolebrain.com/sim-game), or the [peg game](http://www.joenord.com/puzzles/peggame/).

@@ -7,9 +7,11 @@
 3. Using Javascript, generate a random number between -100 and 100.
 
 4. Write a coin flip function. It should return the string "heads" half the time and the string "tails" the other half
+```javascript
   function coinFlip(){
 
   }
+```
 
 5. Re-state the following expression without using negation:
   !(10 > x)
@@ -17,24 +19,29 @@
 6. Re-state the following expression without using negation:
   !(a > 10 && b <= 5)
 
-7. Re-state the following expression without using negation:
-  !(!isLegal || !isFelony)
+7. Re-state the following expression without repeating variable a:
+  (a && x <= 10) || (a && y < 0)
 
-8. What is an Angular directive?
+8. Re-state the following expression without negations:
+  !( (a > 10) || (b > 10) || (c > 10) || (isAdmin) )
 
 9. Write a function which, given a 2-d array of strings, returns the concatenation of all the strings.
+```javascript
   function twodconcat(arr){
 
   }
+```
 
-10. Write a function which, given a 2-d array and another value x, returns true if x is present in the two d array, and false otherwise.
+10. Write a function which, given a 2-d array and another value x, returns true if x is present in the 2-d array, and false otherwise.
+```javascript
   function containsElement(arr, x){
 
   }
+```
 
-11. What is the relationship between html, the $scope construct, and angular expressions? (Expressions are the ones that are written like so: {{quote}} ).
+11. Write a function which, given an two sorted arrays of sizes m and n, returns a larger sorted array of size m+n. This function must work in O(m+n) time.
 
-12. Given the following edge list, draw the graph.
+12. Given the following edge list, draw the graph. Use MS Paint and include the file in your repo.
 
 ```javascript
 E = [[1,2], [2,3], [4,5], [2,4], [1,5]  ]
@@ -54,4 +61,63 @@ M = [
 
 14. For exercises 9 and 10, if you assume that n is the size of one side of the matrix, what is the time complexity (Big Oh) of the algorithms you wrote?
 
-15. Make your Graph Theory Game nice-looking. Publish it to fvi-grad.
+15. What is the time complexity of the following function?
+
+```javascript
+  function thugPop(arr){
+    var ret = [];
+    for (var i === 0; i < arr.length; i++){
+      if (arr[i] % 15 == 0) ret.push('thugPop');
+      else if (arr[i] % 5 == 0) ret.push('thug');
+      else if (arr[i] %3 == 0 ) ret.push('pop');
+      else ret.push(arr[i]);
+    }
+    return ret;
+  }
+```
+
+16. What is the time complexity of the following function?
+
+```javascript
+  function thugify(schoolList){
+    return schoolList.map(function(schoolObj){
+      var school = Object.assign({}, schoolObj);
+      school.students.forEach(function(student){
+        if (Math.random() > 0.5){
+          student.lastName += 'dogg';
+        }
+        else {
+          student.firstName = "lil' "+ student.firstName;
+        }
+      });
+    });
+  }
+```
+
+17. What is the time complexity of the following function?
+
+```javascript
+  function countRepeats(strArr){
+    var repeats = 0;
+    strArr.forEach(function(str, index){
+      var currentRepeats = strArr.filter(function(innerStr, idx){
+        return (innerStr === str && index != idx)
+      });
+      if (currentRepeats.length > 0){
+        repeats++;
+      }
+    });
+    return repeats;
+  }
+```
+
+18. What are the main operations of a stack?
+
+19. What are the main operations of a queue?
+
+20. What is the runtime of bubblesort? How does it work?
+
+21. Create a personal website and upload it so that it is accessible at yourdomain.fvi-grad.com.  
+    1. The website must have your name, contact information, skills, and at least two links to portfolio items you are hosting on fvi-grad.
+    2. The website must not be in a subdirectory of the document root. ie. It needs to be accessible by going to yourusername.fvi-grad.com/ without anything after the slash.
+    3. You can and should use a template

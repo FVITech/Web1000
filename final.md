@@ -1,4 +1,14 @@
-#Final exam
+# Final exam
+
+## Instructions
+
+Create a github repository called web1000-final. **If you do not name your repository correctly and don't submit it to canvas you will receive a zero. Looking at you, Arnaldo.**
+
+In your repository, create a file called testAnswers.txt and **copy and paste all the questions in there.**
+
+Answer each question right below the question text.
+
+## Questions
 
 1. What are the four steps of mergesort?
 
@@ -121,3 +131,4 @@ M = [
     1. The website must have your name, contact information, skills, and at least two links to portfolio items you are hosting on fvi-grad.
     2. The website must not be in a subdirectory of the document root. ie. It needs to be accessible by going to yourusername.fvi-grad.com/ without anything after the slash.
     3. You can and should use a template
+    4. Include the link to your website in your answers document

@@ -1,4 +1,4 @@
-#Angular, Data Structures, and search algos exam
+# Quiz 2
 
 Instructions: create a new repository called ng-ds-test. Within this repo, create a README.md file. Copy and paste all of these questions into this README file and answer them.
 
@@ -36,27 +36,6 @@ Instructions: create a new repository called ng-ds-test. Within this repo, creat
     7. At 12:00:03 Darkwing Duck logs in
     8. At 12:00:04 Evil Mickey logs in.
 
-10. What is an angular directive?
+10. Solve https://www.hackerrank.com/challenges/compare-the-triplets - be mindful that you are required to print the output to the console in exactly the format that was asked. You are not required to return a value, just print to the console. Also be mindful to use JavaScript.
 
-11. When specifying an angular directive, you write a function which must return an object called:  
-  a. Directive Constructor  
-  b. Fidel y Chavez Object  
-  c. Directive Definition object  
-  d. Directive Object  
-
-12. What is the relationship between html, the $scope construct, and angular expressions? (Expressions are the ones that are written like so: {{quote}} ).
-
-13. In order to send ajax requests in Angular, the most accepted programming convention is to create an angular:  
-  a. Module    
-  b. Service  
-  c. Controller  
-  d. $http  
-
-14. In order to create a service, you must use the following angular function:  
-  a. angularApp.controller  
-  b. angularApp.module  
-  c. angularApp.directive  
-  d. angularApp.factory  
-
-15. Do this exercise: https://github.com/Real-Skill/angular-exercises/tree/exercise1
-You will need to run git checkout exercise1 in addition to the commands listed in that readme. You do not need to run grunt karma.
+11. Solve https://www.hackerrank.com/challenges/mini-max-sum - be mindful that you are required to print the output to the console in exactly the format that was asked. You are not required to return a value, just print to the console. Also be mindful to use JavaScript.

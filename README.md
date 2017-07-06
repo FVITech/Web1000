@@ -1,5 +1,29 @@
 # WEB1000 (Logic/CS 1)
 
+# Course Description
+
+In this unit, students study techniques for web design and programming which have a root in mathematics. The goal of this unit is to get students to know how to emulate randomness, understand asynchronous programming and callbacks, use the modulus operator to restrict execution flows and avoid out of bounds exceptions, write effective if statements (by recognizing occurrences of DeMorgan’s laws as well as the distributive property of ands and ors), and really understand if-else chains and negation.
+
+# Course Objectives / Competencies				
+
+Upon successful completion of this course, the student should be able to:
+
+* Understand nested callback design pattern
+
+* Understand how to emulate randomness
+
+* Understand lexical scopes and closures
+
+* Understand key concepts of the stack, queue, and graph data structures
+
+* Understand the basics of recursion
+
+* Understand time complexity
+
+* Understand Boolean Algebra
+
+* Understand certain sorting and searching algorithms
+
 # Homework
 1. Solve 10 problems on codewars.com
 2. Join the Florida Vocational Institute clan on codewars.
@@ -10,7 +34,7 @@
 * 25% completion of in class activities
 * 45% tests (15% each)
 
-# Summary
+# Summary Lesson Plan
 1. Big oh notation, boolean algebra, demorgan's laws. Explain everything needed for the worksheet and then have the students complete the [day 1 worksheet](day1.js)
 2. Codility iterations and time complexity.
 3. Stacks and Queues from the FEM-algos course, including implementations
